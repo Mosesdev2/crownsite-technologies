@@ -151,7 +151,7 @@ function App() {
             </article>
             <article className="work-card work-two">
               <div className="work-preview">
-                <div className="preview-browser"><span</span><span>STUDIO.CO</span></div>
+                <div className="preview-browser"><span></span><span>STUDIO.CO</span></div>
                 <div className="preview-studio"><small>YOUR BUSINESS, REIMAGINED</small><h3>Good work<br />starts here.</h3><span>DISCOVER OUR SERVICES </span></div>
               </div>
               <div className="work-meta"><div><h3>Business Website Concept</h3><p>Business · Demo project</p></div><span>02 / DEMO</span></div>
