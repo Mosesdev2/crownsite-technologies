@@ -2,35 +2,145 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Crownsite Technologies | Websites for small businesses</title>
-<meta name="description" content="Websites, ecommerce shops, landing pages and booking pages for small businesses in Kenya.">
-<meta name="color-scheme" content="dark">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crownsite Technologies | Websites and web apps for Kenyan businesses</title>
+<meta name="description" content="Crownsite Technologies builds websites, booking systems and business tools for small businesses in Kenya.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Hanken+Grotesk:wght@400;500;700&display=swap">
-<link rel="icon" href="favicon.png">
-<link rel="stylesheet" href="styles.css">
-<script>document.documentElement.classList.add("js")</script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=JetBrains+Mono:wght@400;500&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<nav class="glass">
-  <a class="brand" href="index.html"><img src="logo-mark.png" alt="" width="31" height="26">Crown<span>site</span></a>
-  <a class="btn wa-link" href="#">WhatsApp us</a>
-  <div class="links"><a href="index.html" aria-current="page">Home</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
-</nav>
-<main class="wrap">
-<header class="hero">
-  <div class="rv"><h1>Professional websites for ambitious businesses.</h1>
-  <p class="lead">We build websites, ecommerce shops, landing pages and booking pages, all linked to your WhatsApp so people can find you and reach you in one tap.</p>
-  <div class="cta"><a class="btn" href="contact.html">Get my website</a><a class="txt" href="portfolio.html">See our work</a></div></div>
-  <div class="stage" aria-label="Example booking page"><div class="block"></div>
-  <div class="mock glass"><h3>Mwangi Barbers</h3><small>Book for Saturday</small>
-  <div class="slots"><div class="slot off">9:00</div><div class="slot">10:00</div><div class="slot on">11:00</div><div class="slot">12:00</div><div class="slot off">2:00</div><div class="slot">3:00</div></div>
-  <a class="btn" href="contact.html">Confirm on WhatsApp</a></div></div>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Crownsite Technologies home"><img src="images/logo.png" alt="Crownsite Technologies logo"></a>
+    <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="drop" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <nav id="drop" aria-label="Quick links">
+    <div class="wrap">
+      <a href="#services">Services</a><a href="#work">Our work</a><a href="#process">Our process</a><a href="#faq">FAQs</a><a href="#contact">Contact</a>
+      <a class="btn sm" href="#contact">Get a quote</a>
+    </div>
+  </nav>
 </header>
-<div class="for">Built for salons, barbershops, boutiques, hardware shops, restaurants and any small business in Kenya.</div>
-<section><h2 class="rv">What we build</h2><div class="rv"><div class="row"><h3>Business websites</h3><p>A fast site that opens well on any phone, with your services, location, opening hours and contact details.</p></div><div class="row"><h3>Ecommerce websites</h3><p>An online shop where customers browse your products and order, with orders sent to you on WhatsApp.</p></div><div class="row"><h3>Landing pages</h3><p>One focused page for an offer or an ad, built to turn visitors into messages and sales.</p></div><div class="row"><h3>Booking pages</h3><p>Customers pick a day and time. The booking arrives on your WhatsApp, so you never miss one.</p></div></div><p style="margin-top:22px"><a class="txt" href="services.html">More about our services</a></p></section>
-<section><div class="contact glass rv"><h2>Tell us about your business</h2><p>Send a message on WhatsApp and we will show you what your website could look like.</p><a class="btn wa-link" href="#">Message us on WhatsApp</a></div></section>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hgrid">
+    <div class="htxt">
+    <h1>Websites and web apps that <em>work</em> for your business.</h1>
+    <p class="lead">Crownsite Technologies builds business websites, booking systems and dashboards for small businesses in Kenya. Tell us what you need, and we'll reply with a clear plan and price.</p>
+    <div class="cta">
+      <a class="btn" href="#contact">Start a project</a>
+      <a class="btn ghost" href="#work">See our work</a>
+    </div>
+    <div class="proof">
+      <span>Mobile-first</span><span>Priced in KSh</span><span>Support after launch</span>
+    </div>
+    </div>
+    <div class="orb" aria-hidden="true"><i></i><i></i><i></i><img src="images/logo.png" alt=""></div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div><span>Websites</span><b>◆</b><span>Web apps</span><b>◆</b><span>Booking systems</span><b>◆</b><span>Dashboards</span><b>◆</b><span>UI/UX design</span><b>◆</b><span>Maintenance</span><b>◆</b><span>Websites</span><b>◆</b><span>Web apps</span><b>◆</b><span>Booking systems</span><b>◆</b><span>Dashboards</span><b>◆</b><span>UI/UX design</span><b>◆</b><span>Maintenance</span><b>◆</b></div></div>
+
+<section id="services">
+  <div class="wrap">
+    <span class="k">// services</span><h2>What we build</h2>
+    <p class="sub">Pick one service or combine them. Most clients start with a website and add tools later.</p>
+    <div class="grid three">
+      <div class="svc big"><h3>Business websites</h3><p>Fast, mobile-friendly sites that show your services, prices and location, and make it easy for customers to contact you.</p><span class="tag">Business sites, landing pages, portfolios</span></div>
+      <div class="svc"><h3>Web applications</h3><p>Custom systems built around how your business actually runs.</p><span class="tag">Booking, admin dashboards, databases</span></div>
+      <div class="svc"><h3>Business tools</h3><p>Replace paper and spreadsheets with digital forms and simple workflows.</p><span class="tag">Invoices, forms, records</span></div>
+      <div class="svc"><h3>UI and UX design</h3><p>Clear layouts and prototypes, so you can see the product before it is built.</p><span class="tag">Wireframes, interface design</span></div>
+      <div class="svc"><h3>Maintenance</h3><p>Content updates, bug fixes and improvements after launch.</p><span class="tag">Updates, fixes, new features</span></div>
+      <div class="svc"><h3>Tech advice</h3><p>Not sure what you need? We'll help you pick the right platform and scope.</p><span class="tag">Planning, platform choice</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="work">
+  <div class="wrap">
+    <span class="k">// work</span><h2>Recent concepts and builds</h2>
+    <p class="sub">A look at what we are building. Full case studies and screenshots are added as each project goes live.</p>
+    <div class="grid three">
+      <article class="card"><div class="shot s1"><b>BodaGo</b><span>Find your ride. Move with ease.</span></div><div class="txt"><div class="status">Concept · Web app</div><h3>Boda boda ride booking</h3><p>Customers book nearby boda boda riders from their phone.</p></div></article>
+      <article class="card"><div class="shot s2"><b>Billora</b><span>Invoices, quotations, delivery notes.</span></div><div class="txt"><div class="status">In development · Web app</div><h3>Business documents for SMBs</h3><p>Create and send professional business documents in KSh.</p></div></article>
+      <article class="card"><div class="shot s3"><b>Control</b><span>Information at a glance.</span></div><div class="txt"><div class="status">Concept · Dashboard</div><h3>Admin dashboard</h3><p>One screen for sales, bookings and stock.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap split">
+    <div>
+      <span class="k">// process</span><h2>How a project goes</h2>
+      <p class="sub">Four steps, with a message from us at the end of each one.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Understand</h3><p>We ask questions and write down what the project must achieve.</p></div>
+      <div class="step"><h3>Plan</h3><p>We map the pages, features and timeline, and agree the price.</p></div>
+      <div class="step"><h3>Build</h3><p>You see working progress and give feedback as we go.</p></div>
+      <div class="step"><h3>Launch and support</h3><p>We test, publish and stay available for fixes and updates.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="work">
+  <div class="wrap">
+    <span class="k">// faq</span><h2>Questions, answered</h2>
+    <div style="margin-top:30px;max-width:760px">
+      <details><summary>What kind of projects do you work on?</summary><p>Business websites, landing pages, booking systems, admin dashboards and custom web apps. If it runs in a browser, we can likely build it.</p></details>
+      <details><summary>Can you build a website for a small business?</summary><p>Yes, that is our most common project. We design for phones first, because most of your customers will visit from one.</p></details>
+      <details><summary>How do I get a quote?</summary><p>Fill in the form below or message us on WhatsApp. Tell us what the business does and what you want the site to do. We reply with scope and price.</p></details>
+      <details><summary>Do you offer support after launch?</summary><p>Yes. We handle content updates, bug fixes and new features after your project goes live.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap split">
+    <div>
+      <span class="k">// contact</span><h2>Tell us what you want to build</h2>
+      <p class="sub">Send the details and we'll reply with next steps. WhatsApp is the fastest way to reach us.</p>
+      <div class="direct">
+        <a class="btn wa" id="waDirect" href="#">Chat on WhatsApp</a>
+        <a class="btn ghost" id="mailDirect" href="#">Send an email</a>
+      </div>
+      <p class="note" style="margin-top:18px">Based in Kenya. We work with clients across the country, online.</p>
+    </div>
+    <form id="enq">
+      <label>Your name<input name="name" required autocomplete="name" placeholder="e.g. Amina"></label>
+      <label>Phone or email<input name="contact" required placeholder="So we can reply"></label>
+      <label>What do you need?
+        <select name="service" required>
+          <option value="">Choose a service</option>
+          <option>Business website</option><option>Landing page</option><option>Web application</option>
+          <option>Booking system</option><option>Dashboard or business tool</option><option>UI/UX design</option>
+          <option>Maintenance</option><option>Not sure yet</option>
+        </select>
+      </label>
+      <label>Project details<textarea name="details" placeholder="What does your business do, and what should this project achieve?"></textarea></label>
+      <button class="btn wa" type="submit">Send on WhatsApp</button>
+      <p class="note">This opens WhatsApp with your message ready to send.</p>
+    </form>
+  </div>
+</section>
 </main>
-<footer class="wrap">
-  <div>© 2026 Crownsite Technologies, Kenya.</div>
+
+<footer>
+  <div class="wrap">
+    <div class="fcols">
+      <div class="fbrand"><img src="images/logo.png" alt="Crownsite Technologies logo"><p>Websites, web apps and business tools for small businesses in Kenya.</p></div>
+      <div><h4>Quick links</h4><a href="#services">Services</a><a href="#work">Our work</a><a href="#process">Our process</a><a href="#faq">FAQs</a></div>
+      <div><h4>Get started</h4><a href="#contact">Contact</a><a id="fWa" href="#">WhatsApp</a><a href="#top">Back to top ↑</a></div>
+    </div>
+    <div class="fbottom"><span>© 2026 Crownsite Technologies. All rights reserved.</span><span>Turning ideas into innovation.</span></div>
+  </div>
+</footer>
+<a class="fab" id="fab" href="#" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9.5L5 22v-4H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg>Chat with us</a>
+
+<script src="/script.js"></script>
+</body>
+</html>
