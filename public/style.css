@@ -1,4 +1,4 @@
-:root{--bg:#07080b;--panel:rgba(255,255,255,.035);--edge:rgba(255,255,255,.09);--text:#eef1f6;--mute:#8f98a8;--crown:#ff7a00;--gold:#ffb347;--cy:#3de0ff;--r:10px;
+9:root{--bg:#07080b;--panel:rgba(255,255,255,.035);--edge:rgba(255,255,255,.09);--text:#eef1f6;--mute:#8f98a8;--crown:#ff7a00;--gold:#ffb347;--cy:#3de0ff;--r:10px;
 font-family:'Figtree',system-ui,sans-serif}
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth;scroll-padding-top:84px}
@@ -144,3 +144,4 @@ footer{border-top:1px solid var(--edge);padding:44px 0 100px;color:var(--mute);f
 .rv.in{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
 @keyframes up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1}}
+<article class="card"><a class="shot s2 has-img" href="https://getbillora.vercel.app" target="_blank" rel="noopener"><img src="/images/billora.png" alt="Billora invoicing app sign-in screen" loading="lazy"></a><div class="txt"><div class="status">Live · Web app</div><h3>Business documents for SMBs</h3><p>Create and send professional business documents in KSh.</p></div></article>
